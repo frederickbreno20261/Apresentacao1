@@ -37,9 +37,10 @@ Jéssica Fernanda de Oliveira Lima Batista, Thais Costa de Alencar, Janaína Mar
 ## **MOTIVAÇÃO DA PESQUISA**
 
 ::: box-blue
-- A adolescência é um período de maturação do sistema nervoso e mudanças biológicas e sociais, tornando-a vulnerável a distúrbios do sono.
+- O sono é uma necessidade fisiológica essencial para o bem-estar da saúde geral do indivíduo.
+- A adolescência é um período de maturação do sistema nervoso e mudanças biológicas e sociais, tornando-a mais vulnerável a distúrbios do sono.
 - O uso excessivo de tecnologia e mídias pode dificultar a ação reparadora do sono e gerar manifestações dolorosas.
-- Existe uma sobreposição entre dores musculoesqueléticas (DME) e qualidade de sono, configurando um processo biopsicossocial.
+- Estudos sugerem a existência de uma relação entre dores musculoesqueléticas (DME) e qualidade de sono, configurando um processo biopsicossocial.
 :::
 
 ## **OBJETIVOS**
@@ -56,12 +57,18 @@ Analisar a associação entre a má qualidade de sono e as dores musculoesquelé
 
 ::: {.column width="50%"}
 ### Coleta
+- Amostragem por conglomerados em
+duas etapas (escolas e turmas).
 - 545 adolescentes analisados.
 - Faixa etária: 11 a 15 anos.
 - Escolas públicas de Recife-PE.
+- Entre outubro e novembro de 2018 
 :::
 
-::: {.column width="50%"}
+::: {.column width="10%"}
+:::
+
+::: {.column width="40%"}
 ### Procedimento
 - Amostragem por conglomerados em duas etapas (escolas e turmas).
 - Aplicação de questionários em sala de aula sob sigilo.
@@ -76,8 +83,12 @@ Analisar a associação entre a má qualidade de sono e as dores musculoesquelé
 ::: box-orange
 - **Desfecho (DME):** Avaliada pelo Questionário Nórdico de Sintomas Osteomusculares (QNSO).
 - **Exposição (Sono):** Qualidade medida pelo Índice de Pittsburgh (PSQI) e sonolência pela Escala de Epworth (ESE).
-- **Sociodemográficas:** Idade, sexo e escolaridade.
+- **Sociodemográficas:** Idade, sexo, escolaridadem situação marital e situação profissional do responsável.
 :::
+
+## **MÉTRICAS ADOTADAS**
+- **Qualidade do sono:** PSQI > 5 indica má qualidade.
+- **Sonolência diurna:** ESE > 10 indica sonolência.
 
 ## **TESTES DE ASSOCIAÇÃO**
 
