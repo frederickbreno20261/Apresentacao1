@@ -1,9 +1,9 @@
 ---
 title: "**PRÁTICA ESTATÍSTICA II**"
-subtitle: "**ATIVIDADE AVALIATIVA 0**"
-author: "Nome1 (<seuemail1@id.uff.br>) <br> Nome2 (<seuemail2@id.uff.br>)"
+subtitle: "**ATIVIDADE AVALIATIVA 1**"
+author: "Frederick (<fchame@id.uff.br>) <br> Breno (<seuemail2@id.uff.br>)"
 date: today
-date-format: "DD/MM/YYYY"
+date-format: "23/03/2026"
 institute: "Universidade Federal Fluminense"
 format:
   revealjs:
@@ -21,174 +21,110 @@ format:
       data-background-size: cover
 ---
 
-# **PRIMEIRO CAPÍTULO**{data-background-image="Capa.png" style="text-align:center"}
+# **CAPÍTULO 1: INTRODUÇÃO**{data-background-image="Capa.png" style="text-align:center"}
 
-## **PRIMEIRA SEÇÃO**
+## **IDENTIFICAÇÃO DO ESTUDO**
 
-## **BLOCOS**
+::: box-purple
+**TÍTULO**
+
+Qualidade de sono e dores musculoesqueléticas em adolescentes: estudo observacional.
+:::
+
+**Autores:**
+Jéssica Fernanda de Oliveira Lima Batista, Thais Costa de Alencar, Janaína Maria Gomes Fonseca Tolêdo, Kelly Rodrigues Mota, Valdeci Elias dos Santos-Júnior e Mônica Vilela Heimer.
+
+## **MOTIVAÇÃO DA PESQUISA**
 
 ::: box-blue
-Este é um bloco azul.
+- A adolescência é um período de maturação do sistema nervoso e mudanças biológicas e sociais, tornando-a vulnerável a distúrbios do sono.
+- O uso excessivo de tecnologia e mídias pode dificultar a ação reparadora do sono e gerar manifestações dolorosas.
+- Existe uma sobreposição entre dores musculoesqueléticas (DME) e qualidade de sono, configurando um processo biopsicossocial.
 :::
+
+## **OBJETIVOS**
 
 ::: box-green
-Este é um bloco verde.
+**OBJETIVO GERAL**
+
+Analisar a associação entre a má qualidade de sono e as dores musculoesqueléticas (DME) em adolescentes.
 :::
 
-::: box-purple
-**TÍTULO OPCIONAL**
-
-Este é um bloco roxo.
-:::
-
-::: box-orange
-Este é um bloco laranja.
-:::
-
-## **LISTA NÃO ORDENADA**
-
-::: box-blue
-- Estatística
-- Matemática
-- Programação
-:::
-
-## **LISTA NÃO ORDENADA ANINHADA**
-- Frutas
-    - Maçã
-    - Banana
-- Verduras
-    - Alface
-    - Cenoura
-    
-## LISTA ORDENADA
-
-:::box-orange
-1. Coletar dados
-2. Organizar informações
-3. Aplicar análise estatística
-:::
-
-## **LISTAS ORDENADAS ANINHADAS**
-
-1. Preparação
-    1. Coletar materiais
-    2. Definir objetivos
-2. Execução
-
-## **LISTA DE TAREFAS**
-
-::: box-purple
-- [x] Comprar leite
-- [ ] Estudar Quarto
-- [ ] Enviar relatório
-:::
-
-## **LINKS**
-Confira a documentação oficial do [Quarto](https://quarto.org).
-
-## **EQUAÇÕES**
-A reta é descrita por $y = mx + b$.
-
-Segue uma equação de destaque:
-$$
-y = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$
-
-Mais exemplos:
-
-* Frações: $\frac{a}{b}$
-* Raiz quadrada: $\sqrt{x}$
-* Expoentes: $x^2$
-* Índices: $x_i$
-* Somatórios:  $\sum_{i=1}^{n} x_i$
-
-## **IMAGENS**
-![](Rstudio.png){style="width:50%;"}
-
-## **IMAGENS COM EDIÇÕES**
-![](Rstudio.png){fig-align="center" width=100%}
-
-## **TABELAS**
-| Disciplina     | Professor        | Horário   |
-|----------------|-----------------|-----------|
-| Estatística    | Prof. Guilherme | 08h-10h   |
-| Matemática     | Prof. Ana       | 10h-12h   |
-| Programação    | Prof. João      | 14h-16h   |
-
-| Produto | Preço | Quantidade |
-|:--------|------:|:----------:|
-| Lápis   |  1.50 |     10     |
-| Caderno | 12.00 |     5      |
-| Mochila | 75.00 |     1      |
-
-## **SLIDE COM ABAS**
-
-::: {.panel-tabset}
-
-### Aba 1
-
-Conteúdo da primeira aba.
-
-### Aba 2
-
-Conteúdo da segunda aba.
-
-### Aba 3
-
-Conteúdo da terceira aba.
-
-:::
-
-## Exemplo de colunas
+## **A AMOSTRA**
 
 :::: columns
 
-::: {.column width="60%"}
-- Esta é a primeira coluna
-- Ela ocupa **60% da largura**
+::: {.column width="50%"}
+### Coleta
+- 545 adolescentes analisados.
+- Faixa etária: 11 a 15 anos.
+- Escolas públicas de Recife-PE.
 :::
 
-::: {.column width="40%"}
-- Esta é a segunda coluna
-- Ela ocupa **40% da largura**
+::: {.column width="50%"}
+### Procedimento
+- Amostragem por conglomerados em duas etapas (escolas e turmas).
+- Aplicação de questionários em sala de aula sob sigilo.
 :::
 
 ::::
 
-## *SCROLLING* {.scrollable}
+# **CAPÍTULO 2: METODOLOGIA ESTATÍSTICA**{data-background-image="Capa.png" style="text-align:center"}
 
-Este slide demonstra o uso da classe **scrollable**, que permite adicionar **rolagem vertical** quando o conteúdo é muito grande.
+## **VARIÁVEIS ANALISADAS**
 
-Este é um exemplo de texto genérico utilizado apenas para preencher o slide e demonstrar como o conteúdo pode ultrapassar a altura da tela.
+::: box-orange
+- **Desfecho (DME):** Avaliada pelo Questionário Nórdico de Sintomas Osteomusculares (QNSO).
+- **Exposição (Sono):** Qualidade medida pelo Índice de Pittsburgh (PSQI) e sonolência pela Escala de Epworth (ESE).
+- **Sociodemográficas:** Idade, sexo e escolaridade.
+:::
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+## **TESTES DE ASSOCIAÇÃO**
 
-Quando há muito conteúdo, o slide normalmente ficaria visualmente sobrecarregado. Com o uso de `scrollable`, é possível manter tudo em um único slide e permitir que o usuário role o conteúdo.
+Para avaliar a associação entre as variáveis categóricas do estudo, foram aplicados:
 
-- Item A
-- Item B
-- Item C
-- Item D
-- Item E
+- **Teste Qui-quadrado de Pearson**.
+- **Teste Exato de Fisher** (utilizado quando as frequências esperadas eram baixas).
 
-## **CRIANDO UMA CHUNK**
-```{r}
-x <- 1:10
-hist(x)
-```
+A decisão estatística baseou-se no nível de significância:
+$$\alpha = 0,05 \text{ (ou 5%)} $$
 
-## CHUNK COM NOME
-```{r boxplot}
-x <- 1:10
-boxplot(x)
-```
+# **CAPÍTULO 3: RESULTADOS**{data-background-image="Capa.png" style="text-align:center"}
 
-## **CHUNK PERSONALIZADA**
-```{r, fig.width=10, fig.height=4}
-hist(rnorm(100), col="skyblue", main="Histograma")
-```
+## **QUALIDADE DO SONO VS. VARIÁVEIS**
+
+| Variável | Valor de $p$ | Associação |
+|----------|:----------:|:----------:|
+| Horas de sono | $0,043$ | **Significativa**  |
+| Presença de dor | $0,347$ | Não Significativa  |
+| Sonolência diurna | $0,979$ | Não Significativa  |
+
+::: box-blue
+**Interpretação:** A quantidade de horas dormidas por noite está associada à percepção da qualidade do sono do adolescente.
+:::
+
+## **DISTÚRBIO DO SONO VS. LOCAL DA DOR**
+
+Abaixo, os locais onde o **Teste Qui-quadrado** revelou dependência significativa entre as variáveis:
+
+::: box-orange
+- **Parte superior das costas:** $p = 0,038$.
+- **Punhos e mãos:** $p = 0,004$.
+:::
+
+A prevalência de dor (geral) na amostra foi de **87,5%**.
+
+# **CAPÍTULO 4: CONCLUSÃO**{data-background-image="Capa.png" style="text-align:center"}
+
+## **SÍNTESE DOS ACHADOS**
+
+::: box-purple
+- [x] Associação confirmada entre distúrbios de sono e DME.
+- [x] Relação direta entre horas dormidas e qualidade do sono.
+- [x] Alta prevalência de má qualidade de sono (66,8%).
+:::
+
+## **CONTRIBUIÇÃO PARA A SOCIEDADE**
+
+- **Importância da Estatística:** Os testes de associação permitiram identificar que o sono não é apenas um fator biológico, mas um componente de risco para dores físicas em jovens.
+- **Impacto Social:** Os dados sugerem a necessidade de ações educativas sobre a **higiene do sono** e o uso moderado de tecnologias para melhorar a saúde física e qualidade de vida dos adolescentes.
