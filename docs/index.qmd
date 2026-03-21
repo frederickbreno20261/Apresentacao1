@@ -1,7 +1,7 @@
 ---
 title: "**PRÁTICA ESTATÍSTICA II**"
 subtitle: "**ATIVIDADE AVALIATIVA 1**"
-author: "Frederick (<fchame@id.uff.br>) <br> Breno (<seuemail2@id.uff.br>)"
+author: "Frederick (<fchame@id.uff.br>) <br> Breno (<brenoborges@id.uff.br>)"
 date: today
 date-format: "23/03/2026"
 institute: "Universidade Federal Fluminense"
@@ -21,9 +21,13 @@ format:
       data-background-size: cover
 ---
 
-# **CAPÍTULO 1: INTRODUÇÃO**{data-background-image="Capa.png" style="text-align:center"}
+# **CAPÍTULO 1: INTRODUÇÃO**
 
 ## **IDENTIFICAÇÃO DO ESTUDO**
+
+::: section-label
+📋 Sobre o artigo
+:::
 
 ::: box-purple
 **TÍTULO**
@@ -45,6 +49,10 @@ Jéssica Fernanda de Oliveira Lima Batista, Thais Costa de Alencar, Janaína Mar
 
 ## **OBJETIVOS**
 
+::: section-label
+🎯 Meta do estudo
+:::
+
 ::: box-green
 **OBJETIVO GERAL**
 
@@ -56,11 +64,11 @@ Analisar a associação entre a má qualidade de sono e as dores musculoesquelé
 :::: columns
 
 ::: {.column width="50%"}
-### Coleta
+### 📍 Coleta
 - Amostragem por conglomerados em
 duas etapas (escolas e turmas).
-- 545 adolescentes analisados.
-- Faixa etária: 11 a 15 anos.
+- **545 adolescentes** analisados.
+- Faixa etária: **11 a 15 anos**.
 - Escolas públicas de Recife-PE.
 - Entre outubro e novembro de 2018 
 :::
@@ -69,16 +77,22 @@ duas etapas (escolas e turmas).
 :::
 
 ::: {.column width="40%"}
-### Procedimento
+### 📝 Procedimento
 - Amostragem por conglomerados em duas etapas (escolas e turmas).
 - Aplicação de questionários em sala de aula sob sigilo.
 :::
 
 ::::
 
-# **CAPÍTULO 2: METODOLOGIA ESTATÍSTICA**{data-background-image="Capa.png" style="text-align:center"}
+# **CAPÍTULO 2: METODOLOGIA ESTATÍSTICA**
+
 
 ## **VARIÁVEIS ANALISADAS**
+
+
+::: section-label
+📊 O que foi medido
+:::
 
 ::: box-orange
 - **Desfecho (DME):** Avaliada pelo Questionário Nórdico de Sintomas Osteomusculares (QNSO).
@@ -87,8 +101,13 @@ duas etapas (escolas e turmas).
 :::
 
 ## **MÉTRICAS ADOTADAS**
-- **Qualidade do sono:** PSQI > 5 indica má qualidade.
-- **Sonolência diurna:** ESE > 10 indica sonolência.
+
+
+| Instrumento | Ponto de Corte | Classificação |
+|-------------|:--------------:|:-------------:|
+| PSQI | > 5 | Má qualidade de sono |
+| ESE  | > 10 | Sonolência diurna |
+
 
 ## **TESTES DE ASSOCIAÇÃO**
 
@@ -100,7 +119,7 @@ Para avaliar a associação entre as variáveis categóricas do estudo, foram ap
 A decisão estatística baseou-se no nível de significância:
 $$\alpha = 0,05 \text{ (ou 5%)} $$
 
-# **CAPÍTULO 3: RESULTADOS**{data-background-image="Capa.png" style="text-align:center"}
+# **CAPÍTULO 3: RESULTADOS**
 
 ## **QUALIDADE DO SONO VS. VARIÁVEIS**
 
@@ -123,9 +142,11 @@ Abaixo, os locais onde o **Teste Qui-quadrado** revelou dependência significati
 - **Punhos e mãos:** $p = 0,004$.
 :::
 
-A prevalência de dor (geral) na amostra foi de **87,5%**.
+<br>
 
-# **CAPÍTULO 4: CONCLUSÃO**{data-background-image="Capa.png" style="text-align:center"}
+> A prevalência de dor (geral) na amostra foi de [**87,5%**]{style="color:#e76f51; font-size:1.2em; font-weight:bold;"}
+
+# **CAPÍTULO 4: CONCLUSÃO**
 
 ## **SÍNTESE DOS ACHADOS**
 
