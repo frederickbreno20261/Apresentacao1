@@ -116,6 +116,18 @@ Para avaliar a associação entre as variáveis categóricas do estudo, foram ap
 A decisão estatística baseou-se no nível de significância:
 $$\alpha = 0,05 \text{ (ou 5%)} $$
 
+## **TABELAS** {.scrollable}
+
+::: {style="text-align: center"}
+![](Tabela 1.png){width=50%}
+:::
+
+## **TABELAS** {.scrollable}
+
+![](Tabela 2.png){width=100%}
+
+![](Tabela 3.png){width=100%}
+
 # **CAPÍTULO 3: RESULTADOS**
 
 ## **QUALIDADE DO SONO VS. VARIÁVEIS**
